@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget Planning</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="top-section">
+        <div class="header-section">
+            <div class="title">
+                <h3>Available budget in
+                    <span class="dateNow"></span>
+                    <span class="monthNow"></span>
+                    <span class="yearNow"></span>
+                </h3>
+            </div>
+            <div class="total-budget">
+                <h1></h1>
+            </div>
+            <div class="box-brief income-bg">
+                <p class="text">INCOME</p>
+                <p class="number">
+                </p>
+            </div>
+            <br>
+            <div class="box-brief expenses-bg">
+                <p class="text">EXPENSES</p>
+                <p class="percentage-total"></p>
+                <p class="number"></p>
+            </div>
+        </div>
+    </div>
+    <div class="input-section">
+        <div class="content-input-section">
+            <div class="type item-input-section">
+                <select name="" id="selectType">
+                    <option value="inc">income</option>
+                    <option value="exp">expenses</option>
+                </select>
+            </div>
+            <div class="nama item-input-section">
+                <input type="text" placeholder="deskripsi">
+            </div>
+            <div class="value item-input-section">
+                <input type="number" placeholder="value">
+            </div>
+        </div>
+    </div>
+    <div class="detail-section">
+        <div class="row">
+            <div class="income-detail">
+                <h3 class="income-color">INCOME</h3>
+                <div class="income-list">
+
+                </div>
+                <!-- <div class="item-box" id="income-0">
+                    <p class="nama-item">nama-item</p>
+                    <p class="harga-item">+ Rp.38.500
+                        <span class="hapus-item">hapus</span>
+                    </p>
+                </div> -->
+            </div>
+            <div class="expenses-detail">
+                <h3 class="expenses-color">EXPENSES</h3>
+                <div class="expenses-list">
+
+                </div>
+                <!-- <div class="item-box" id="expenses-0">
+                    <p class="nama-item">nama-item</p>
+                    <p class="harga-item">- Rp.22.000
+                        <span class="percentage-total">20%</span>
+                        <span class="hapus-item">hapus</span>
+                    </p>
+                </div> -->
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
